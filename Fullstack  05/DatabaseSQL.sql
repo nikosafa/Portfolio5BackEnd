@@ -1,5 +1,5 @@
 test
-DROP DATABASE cafe_port;
+DROP DATABASE IF EXISTS cafe_port;
 CREATE DATABASE IF NOT EXISTS cafe_port;
 use cafe_port;
 
