@@ -67,7 +67,7 @@ VALUES
     ('eva', 'eva@example.com', SHA2('evapassword', 256)),
     ('frank', 'frank@example.com', SHA2('frankspass', 256)),
     ('grace', 'grace@example.com', SHA2('gracepass123', 256)),
-    ('henry', 'henry@example.com', SHA2('henrypassword', 256))
+    ('henry', 'henry@example.com', SHA2('henrypassword', 256)),
     ('mike', 'mike@example.com', SHA2('password123', 256)),
     ('sarah', 'sarah@example.com', SHA2('securepass', 256)),
     ('oliver', 'oliver@example.com', SHA2('mypassword', 256)),
@@ -84,19 +84,16 @@ VALUES
     ('amelia', 'amelia@example.com', SHA2('ameliapassword', 256)),
     ('lucas', 'lucas@example.com', SHA2('lucassecret', 256)),
     ('harper', 'harper@example.com', SHA2('harperpass', 256)),
-    ('henry', 'henry@example.com', SHA2('henrypassword', 256)),
     ('evelyn', 'evelyn@example.com', SHA2('evelynpass123', 256)),
     ('alex', 'alex@example.com', SHA2('alexpass', 256)),
     ('ella', 'ella@example.com', SHA2('ellapassword', 256)),
     ('daniel', 'daniel@example.com', SHA2('danielpass', 256)),
-    ('grace', 'grace@example.com', SHA2('gracesecret', 256)),
     ('jackson', 'jackson@example.com', SHA2('jacksonpass', 256)),
     ('scarlett', 'scarlett@example.com', SHA2('scarlettpassword', 256)),
     ('sebastian', 'sebastian@example.com', SHA2('sebastianpass', 256)),
     ('zoe', 'zoe@example.com', SHA2('zoepassword', 256)),
     ('matthew', 'matthew@example.com', SHA2('matthewpass', 256)),
     ('victoria', 'victoria@example.com', SHA2('victoriapass123', 256)),
-    ('david', 'david@example.com', SHA2('davidspass', 256)),
     ('lily', 'lily@example.com', SHA2('lilysecret', 256));
 
 INSERT INTO favorites (user_id, cafe_id)
