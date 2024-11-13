@@ -1,3 +1,4 @@
+test
 DROP DATABASE cafe_port;
 CREATE DATABASE IF NOT EXISTS cafe_port;
 use cafe_port;
