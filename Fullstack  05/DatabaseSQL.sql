@@ -55,3 +55,35 @@ VALUES
     ('La Esquina', 'Copenhagen', TRUE, 'expensive', TRUE, 55.6787, 12.5741),
     ('Coffee Collective Jægersborggade', 'Copenhagen', TRUE, 'moderate', FALSE, 55.6918, 12.5554),
     ('Espresso House Nørreport', 'Copenhagen', TRUE, 'moderate', TRUE, 55.6837, 12.5712);
+
+INSERT INTO users (username, email, password_hash)
+VALUES 
+    ('johndoe', 'johndoe@example.com', SHA2('password123', 256)),
+    ('janedoe', 'janedoe@example.com', SHA2('securepass', 256)),
+    ('alice', 'alice@example.com', SHA2('mypassword', 256)),
+    ('bob', 'bob@example.com', SHA2('bobspassword', 256)),
+    ('charlie', 'charlie@example.com', SHA2('charlie123', 256)),
+    ('david', 'david@example.com', SHA2('davidssecret', 256)),
+    ('eva', 'eva@example.com', SHA2('evapassword', 256)),
+    ('frank', 'frank@example.com', SHA2('frankspass', 256)),
+    ('grace', 'grace@example.com', SHA2('gracepass123', 256)),
+    ('henry', 'henry@example.com', SHA2('henrypassword', 256));
+
+INSERT INTO favorites (user_id, cafe_id)
+VALUES 
+    (1, 2),  -- User 1 favorites Cafe 2
+    (1, 5),  -- User 1 favorites Cafe 5
+    (2, 3),  -- User 2 favorites Cafe 3
+    (2, 7),  -- User 2 favorites Cafe 7
+    (3, 1),  -- User 3 favorites Cafe 1
+    (3, 4),  -- User 3 favorites Cafe 4
+    (4, 2),  -- User 4 favorites Cafe 2
+    (4, 6),  -- User 4 favorites Cafe 6
+    (5, 3),  -- User 5 favorites Cafe 3
+    (5, 8),  -- User 5 favorites Cafe 8
+    (6, 9),  -- User 6 favorites Cafe 9
+    (7, 2),  -- User 7 favorites Cafe 2
+    (8, 10), -- User 8 favorites Cafe 10
+    (9, 1),  -- User 9 favorites Cafe 1
+    (9, 3),  -- User 9 favorites Cafe 3
+    (10, 5); -- User 10 favorites Cafe 5
